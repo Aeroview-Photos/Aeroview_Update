@@ -1,0 +1,46 @@
+## .github/ISSUE_TEMPLATE/bug_report.yml
+
+name: Bug report
+description: 报告系统错误或实际不符合预期的行为
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你的报告！提供精确的处处方便我们快速定位和解决问题。
+
+  - type: input
+    id: summary
+    attributes:
+      label: 问题概要
+      description: 简要描述你遇到的 bug 
+      placeholder: 例如：点击按钮无效或页面报错
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 如何精确地观測到该 bug？
+      placeholder: |
+        1. 访问...
+        2. 点击...
+        3. 看到...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期行为
+      description: 想让系统怎么做？
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 相关日志/报错
+      description: 如果有报错信息，请备注
+      render: shell
+
+---
