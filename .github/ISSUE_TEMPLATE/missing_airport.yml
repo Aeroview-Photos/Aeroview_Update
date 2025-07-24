@@ -1,0 +1,46 @@
+name: 🚨 缺少机场数据报告
+description: 报告机场信息缺失并提供补充内容
+labels: [Missing AirportData]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你帮助我们补充机场信息！
+
+  - type: input
+    id: icao_code
+    attributes:
+      label: ICAO 四字码
+      placeholder: 例如：ZBAA
+    validations:
+      required: true
+
+  - type: input
+    id: iata_code
+    attributes:
+      label: IATA 三字码
+      placeholder: 例如：PEK
+    validations:
+      required: false
+
+  - type: input
+    id: airport_name
+    attributes:
+      label: 机场名称
+      placeholder: 例如：北京首都国际机场
+    validations:
+      required: true
+
+  - type: input
+    id: coordinates
+    attributes:
+      label: 经纬度
+      placeholder: 例如：纬度 40.0799，经度 116.6031
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: 信息来源（可选）
+      description: 建议提供来源链接或引用
