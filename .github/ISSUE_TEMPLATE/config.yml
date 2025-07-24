@@ -1,0 +1,7 @@
+## .github/ISSUE_TEMPLATE/config.yml
+
+blank_issues_enabled: false
+contact_links:
+  - name: 问题讨论区 (Questions & Discussions)
+    url: https://github.com/Aeroview-Photos/Aeroview_Update/discussions
+    about: 请前往 Discussions 区提问，或分享想法、讨论功能可能性
