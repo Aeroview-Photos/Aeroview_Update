@@ -1,0 +1,46 @@
+name: 🛩️ 缺少航空器数据报告
+description: 报告航空器数据缺失并补充相关信息
+labels: [Missing AircraftData]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你协助我们完善航空器数据！
+
+  - type: input
+    id: registration
+    attributes:
+      label: 注册号（Registration Number）
+      placeholder: 例如：B-1234
+    validations:
+      required: true
+
+  - type: input
+    id: serial
+    attributes:
+      label: 序列号（Serial Number / MSN）
+      placeholder: 例如：12345
+    validations:
+      required: true
+
+  - type: input
+    id: aircraft_type
+    attributes:
+      label: 航空器型号（Aircraft Type）
+      placeholder: 例如：Boeing 737-89P
+    validations:
+      required: true
+
+  - type: input
+    id: operator
+    attributes:
+      label: 运营方 / 航空公司
+      placeholder: 例如：中国东方航空
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: 信息来源（可选）
+      description: 推荐提供数据来源链接或说明，例如 airfleets、planespotters 等网站
