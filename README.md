@@ -1,7 +1,8 @@
 # Aeroview_Update
 
 > **Aeroview 项目更新日志仓库**  
-本仓库记录了 Aeroview 项目下所有核心模块的开发进展和更新历史，包括 Aeroview Photos 与 Aeroview Admin。通过本仓库，你可以轻松追踪各模块的版本演变、功能变更与重要修复。
+本仓库记录了 Aeroview 项目下所有核心模块的开发进展和更新历史，包括 Aeroview Photos 与 Aeroview Admin。通过本仓库，你可以轻松追踪各模块的版本演变、功能变更与重要修复，
+> 同时在Issue中接受问题反馈
 
 ---
 
