@@ -1,5 +1,18 @@
 # Aeroview Photos 更新日志
 ---
+## Aeroview Photos PUB 3.1.0 发布日志
+## What's Changed
+* feat: 添加感谢XZphotos提供的自动填充数据的说明 by @adminlby in https://github.com/Aeroview-Photos/Aeroview_Photos/pull/12
+* （1/2）fix:修复忘记密码页面和修改邮箱页面（未完成）无法使用的问题 by @adminlby in https://github.com/Aeroview-Photos/Aeroview_Photos/pull/13
+* feat: 修改 change_email 函数和添加返回上一页按钮到修改邮箱和忘记密码页面 by @adminlby in https://github.com/Aeroview-Photos/Aeroview_Photos/pull/14
+* feat: 优化上传照片功能，调整水印处理和文件保存逻辑 by @adminlby in https://github.com/Aeroview-Photos/Aeroview_Photos/pull/15
+* feat: 添加水印预览功能，支持自定义水印位置和预览图像生成 by @adminlby in https://github.com/Aeroview-Photos/Aeroview_Photos/pull/16
+
+
+**Full Changelog**: https://github.com/Aeroview-Photos/Aeroview_Photos/compare/Pub-3.0.0...Pub-3.1.0
+
+---
+
 # Aeroview Photos PUB 3.0.0 发布日志
 
 ## 🎉 新功能特性
